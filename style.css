@@ -267,3 +267,31 @@ ul li p{
     font-size: 16px;
     color: #06223b;
 }
+
+.access{
+    margin: 0 120px 120px 120px;
+}
+
+.access .access_content{
+    padding: 80px 40px;
+    background-color: #e9eaea;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.access_content h2{
+    font-size: 40px;
+    text-align: center;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.access p{
+    text-align: center;
+    color: #586673;
+    margin-bottom: 24px;
+}
+
+.access_content .btn{
+    margin-bottom: 16px;
+}
