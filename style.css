@@ -126,4 +126,79 @@ body{
     font-size: 16px;
 
     border: 2px solid white;
+    margin-left: 32px;
+}
+
+.cards .card_container{
+    width: 85%;
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+}
+.cards .card_container .section_heading{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.section_heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    font-style:bold;
+}
+
+.section_heading p{
+    color: #627382;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.card_container .card_slot{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.card_slot .card{
+    width: 20%;
+    max-width: 332px;
+    /* border: 0.5px black solid; */
+    border-radius: 12px;
+    padding: 40px 24px;
+    /* margin-top: 44px; */
+    text-align: center;
+    gap:16px;
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.08);
+
+}
+
+.card :hover{
+    transform: translateY(-6px);
+}
+
+.card h3{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.card p{
+    max-width: 274px;
+    margin: 0 24px 0 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #627382;
+    line-height: 1.5;
+}
+
+.card img{
+    max-width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
 }
