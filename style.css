@@ -202,3 +202,68 @@ body{
     height: 60px;
     margin-bottom: 20px;
 }
+
+.creative .creative_container{
+    margin: 120px;
+    display: flex;
+    gap: 60px;
+}
+
+.creative_container img{
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 12px;
+}
+
+.creative_container .content{
+    padding: 120px 0 120px 0;
+}
+
+.content h4{
+    color: #30B868;
+    max-width: 700px;
+    max-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.content h2{
+    max-width: 700px;
+    max-height: 116px;
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.content .description{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.content .points ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.points ul li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+ul li p{
+    margin: 0;
+    font-size: 16px;
+    color: #06223b;
+}
